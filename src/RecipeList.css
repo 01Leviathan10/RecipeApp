@@ -1,0 +1,25 @@
+.recipe-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 800px;
+}
+
+@media(max-width:580px) {
+    .recipe-list{
+        display: block;
+    }
+}
+
+@media(max-width:768px) {
+    .recipe-list{
+        display: block;
+    }
+}
+
+@media(max-width:1024px) {
+    .recipe-list{
+        display: flex;
+    }
+}
+
